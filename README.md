@@ -79,6 +79,12 @@ npm run dev
 - [SHAUQINA BALQIS BINTI MAT HARUN 2316818]
 - [FATHIN A'DLIN SOFEA BINTI BOLIA 2326814]
 
+## Demo Video
+- 
+
+## Final Report
+- https://docs.google.com/document/d/1Z9whqg eXxo5nwXQKSjon8eVLGySjaYNi8cbqC0NN0c8/edit?usp=sharing
+
 ## Technologies Used
 - Laravel
 - Bootstrap
