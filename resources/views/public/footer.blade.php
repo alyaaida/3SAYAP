@@ -39,7 +39,7 @@
                     <li><a href="{{ route('menu') }}" class="footer-link flex items-center"><i class="fas fa-chevron-right text-orange-500 mr-2 text-xs"></i> Our Menu</a></li>
                     <li><a href="{{ route('about') }}" class="footer-link flex items-center"><i class="fas fa-chevron-right text-orange-500 mr-2 text-xs"></i> About Us</a></li>
                     <li><a href="{{ route('locations') }}" class="footer-link flex items-center"><i class="fas fa-chevron-right text-orange-500 mr-2 text-xs"></i> Locations</a></li>
-                    <li><a href="{{ route('order') }}" class="footer-link flex items-center"><i class="fas fa-chevron-right text-orange-500 mr-2 text-xs"></i> Order Online</a></li>
+                    <li><a href="{{ route('orders') }}" class="footer-link flex items-center"><i class="fas fa-chevron-right text-orange-500 mr-2 text-xs"></i> Order Online</a></li>
                 </ul>
             </div>
             

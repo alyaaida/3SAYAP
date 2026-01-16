@@ -1,0 +1,51 @@
+# Query: route('order')
+# ContextLines: 1
+
+10 results - 7 files
+
+resources\views\layouts\footer.blade.php:
+  41                      <li><a href="{{ route('locations') }}" class="footer-link flex items-center"><i class="fas fa-chevron-right text-orange-500 mr-2 text-xs"></i> Locations</a></li>
+  42:                     <li><a href="{{ route('orders') }}" class="footer-link flex items-center"><i class="fas fa-chevron-right text-orange-500 mr-2 text-xs"></i> Order Online</a></li>
+  43                  </ul>
+
+resources\views\layouts\home.blade.php:
+   34                  <div class="flex flex-col sm:flex-row gap-4">
+   35:                     <a href="{{ route('orders') }}" class="btn-primary inline-flex items-center justify-center text-center">
+   36                          <i class="fas fa-shopping-cart mr-2"></i>
+
+  323          <div class="flex flex-col sm:flex-row gap-4 justify-center">
+  324:             <a href="{{ route('orders') }}" class="bg-white text-orange-600 px-8 py-4 rounded-full font-bold text-lg hover:bg-orange-50 transform hover:scale-105 transition-all shadow-xl inline-flex items-center justify-center">
+  325                  <i class="fas fa-shopping-cart mr-2"></i>
+
+resources\views\partials\footer.blade.php:
+  41                      <li><a href="{{ route('locations') }}" class="footer-link flex items-center"><i class="fas fa-chevron-right text-orange-500 mr-2 text-xs"></i> Locations</a></li>
+  42:                     <li><a href="{{ route('orders') }}" class="footer-link flex items-center"><i class="fas fa-chevron-right text-orange-500 mr-2 text-xs"></i> Order Online</a></li>
+  43                  </ul>
+
+resources\views\partials\navbar.blade.php:
+  104                      
+  105:                     <a href="{{ route('orders') }}" class="flex-1 btn-primary text-center">
+  106                          Order Now
+
+resources\views\public\footer.blade.php:
+  41                      <li><a href="{{ route('locations') }}" class="footer-link flex items-center"><i class="fas fa-chevron-right text-orange-500 mr-2 text-xs"></i> Locations</a></li>
+  42:                     <li><a href="{{ route('orders') }}" class="footer-link flex items-center"><i class="fas fa-chevron-right text-orange-500 mr-2 text-xs"></i> Order Online</a></li>
+  43                  </ul>
+
+resources\views\public\home.blade.php:
+   34                  <div class="flex flex-col sm:flex-row gap-4">
+   35:                     <a href="{{ route('orders') }}" class="btn-primary inline-flex items-center justify-center text-center">
+   36                          <i class="fas fa-shopping-cart mr-2"></i>
+
+  317          <div class="flex flex-col sm:flex-row gap-4 justify-center">
+  318:             <a href="{{ route('orders') }}" class="bg-white text-orange-600 px-8 py-4 rounded-full font-bold text-lg hover:bg-orange-50 transform hover:scale-105 transition-all shadow-xl inline-flex items-center justify-center">
+  319                  <i class="fas fa-shopping-cart mr-2"></i>
+
+resources\views\public\navbar.blade.php:
+  26              <div class="hidden md:flex items-center space-x-4">
+  27:                 <a href="{{ route('orders') }}" class="btn-primary inline-flex items-center">
+  28                      <i class="fas fa-shopping-cart mr-2"></i>
+
+  48                  <a href="{{ route('contact') }}" class="block nav-link text-center">Contact</a>
+  49:                 <a href="{{ route('orders') }}" class="block btn-primary text-center mt-4">
+  50                      <i class="fas fa-shopping-cart mr-2"></i>

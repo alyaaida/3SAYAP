@@ -37,14 +37,14 @@ class LoginController extends Controller
         ]);
 
         if (Auth::attempt($credentials)) {
-
+             $request->session()->regenerate();
             if (Auth::user()->role == 1) {
-                $request->session()->regenerate();
+               // $request->session()->regenerate();
                 return redirect()->route('admin-dashboard')->with('success-message', 'Login Successful.');
             }
             
             if (Auth::user()->role == 2) {
-                $request->session()->regenerate();
+               // $request->session()->regenerate();
                 return redirect()->route('staff-dashboard')->with('success-message', 'Login Successful.');
             }
         }

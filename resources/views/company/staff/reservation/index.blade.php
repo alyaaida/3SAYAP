@@ -22,7 +22,7 @@
                             <i class='bx bxs-bell'></i>
                             <div class="data">
                                 <span class="title">Reservation in-Progress ({{ date('d-M') }})</span>
-                                <span class="data">Total bla bla bla</span>
+                                <span class="data">Total</span>
                             </div>
                         </div>
 

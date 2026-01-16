@@ -4,6 +4,7 @@
 
 @section('content')
 
+
 <!-- Page Header -->
 <section class="bg-gradient-to-br from-orange-600 to-red-600 py-20 relative overflow-hidden">
     <div class="absolute inset-0 opacity-10">
@@ -45,7 +46,7 @@
         <!-- Menu Items Grid -->
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             
-            <!-- Item 1 -->
+            <!-- Item 1 - Original Recipe Chicken -->
             <div class="menu-item chicken bg-white rounded-2xl shadow-lg overflow-hidden transform hover:scale-105 transition-all duration-300 animate-on-scroll">
                 <div class="aspect-square bg-gradient-to-br from-orange-200 to-red-200 flex items-center justify-center relative group">
                     <i class="fas fa-drumstick-bite text-7xl text-orange-500"></i>
@@ -62,14 +63,18 @@
                             <span class="text-sm text-gray-500 ml-2">per piece</span>
                         </div>
                     </div>
-                    <button class="w-full bg-orange-500 text-white py-3 rounded-full font-semibold hover:bg-orange-600 transition flex items-center justify-center">
+                    <button onclick="handleAddToCart(this)"
+                            data-product-name="Original Recipe Chicken"
+                            data-product-price="12.90"
+                            data-product-id="1"
+                            class="w-full bg-orange-500 text-white py-3 rounded-full font-semibold hover:bg-orange-600 transition flex items-center justify-center">
                         <i class="fas fa-cart-plus mr-2"></i>
                         Add to Cart
                     </button>
                 </div>
             </div>
             
-            <!-- Item 2 -->
+            <!-- Item 2 - Spicy Crispy Wings -->
             <div class="menu-item chicken bg-white rounded-2xl shadow-lg overflow-hidden transform hover:scale-105 transition-all duration-300 animate-on-scroll" style="animation-delay: 0.1s;">
                 <div class="aspect-square bg-gradient-to-br from-red-300 to-orange-300 flex items-center justify-center relative">
                     <i class="fas fa-fire text-7xl text-red-600"></i>
@@ -86,14 +91,18 @@
                             <span class="text-sm text-gray-500 ml-2">6 pieces</span>
                         </div>
                     </div>
-                    <button class="w-full bg-orange-500 text-white py-3 rounded-full font-semibold hover:bg-orange-600 transition flex items-center justify-center">
+                    <button onclick="handleAddToCart(this)"
+                            data-product-name="Spicy Crispy Wings"
+                            data-product-price="15.90"
+                            data-product-id="2"
+                            class="w-full bg-orange-500 text-white py-3 rounded-full font-semibold hover:bg-orange-600 transition flex items-center justify-center">
                         <i class="fas fa-cart-plus mr-2"></i>
                         Add to Cart
                     </button>
                 </div>
             </div>
             
-            <!-- Item 3 -->
+            <!-- Item 3 - Family Bucket -->
             <div class="menu-item chicken bg-white rounded-2xl shadow-lg overflow-hidden transform hover:scale-105 transition-all duration-300 animate-on-scroll" style="animation-delay: 0.2s;">
                 <div class="aspect-square bg-gradient-to-br from-yellow-200 to-orange-200 flex items-center justify-center relative">
                     <i class="fas fa-box text-7xl text-yellow-600"></i>
@@ -110,14 +119,18 @@
                             <span class="text-sm text-gray-500 ml-2">12 pieces</span>
                         </div>
                     </div>
-                    <button class="w-full bg-orange-500 text-white py-3 rounded-full font-semibold hover:bg-orange-600 transition flex items-center justify-center">
+                    <button onclick="handleAddToCart(this)"
+                            data-product-name="Family Bucket"
+                            data-product-price="45.90"
+                            data-product-id="3"
+                            class="w-full bg-orange-500 text-white py-3 rounded-full font-semibold hover:bg-orange-600 transition flex items-center justify-center">
                         <i class="fas fa-cart-plus mr-2"></i>
                         Add to Cart
                     </button>
                 </div>
             </div>
             
-            <!-- Item 4 -->
+            <!-- Item 4 - Crispy Chicken Burger -->
             <div class="menu-item burgers bg-white rounded-2xl shadow-lg overflow-hidden transform hover:scale-105 transition-all duration-300 animate-on-scroll">
                 <div class="aspect-square bg-gradient-to-br from-orange-200 to-yellow-200 flex items-center justify-center">
                     <i class="fas fa-burger text-7xl text-orange-600"></i>
@@ -130,14 +143,18 @@
                             <span class="text-2xl font-bold text-orange-600">RM 13.90</span>
                         </div>
                     </div>
-                    <button class="w-full bg-orange-500 text-white py-3 rounded-full font-semibold hover:bg-orange-600 transition flex items-center justify-center">
+                    <button onclick="handleAddToCart(this)"
+                            data-product-name="Crispy Chicken Burger"
+                            data-product-price="13.90"
+                            data-product-id="4"
+                            class="w-full bg-orange-500 text-white py-3 rounded-full font-semibold hover:bg-orange-600 transition flex items-center justify-center">
                         <i class="fas fa-cart-plus mr-2"></i>
                         Add to Cart
                     </button>
                 </div>
             </div>
             
-            <!-- Item 5 -->
+            <!-- Item 5 - Spicy Chicken Burger -->
             <div class="menu-item burgers bg-white rounded-2xl shadow-lg overflow-hidden transform hover:scale-105 transition-all duration-300 animate-on-scroll" style="animation-delay: 0.1s;">
                 <div class="aspect-square bg-gradient-to-br from-red-200 to-orange-200 flex items-center justify-center relative">
                     <i class="fas fa-burger text-7xl text-red-600"></i>
@@ -153,14 +170,18 @@
                             <span class="text-2xl font-bold text-orange-600">RM 14.90</span>
                         </div>
                     </div>
-                    <button class="w-full bg-orange-500 text-white py-3 rounded-full font-semibold hover:bg-orange-600 transition flex items-center justify-center">
+                    <button onclick="handleAddToCart(this)"
+                            data-product-name="Spicy Chicken Burger"
+                            data-product-price="14.90"
+                            data-product-id="5"
+                            class="w-full bg-orange-500 text-white py-3 rounded-full font-semibold hover:bg-orange-600 transition flex items-center justify-center">
                         <i class="fas fa-cart-plus mr-2"></i>
                         Add to Cart
                     </button>
                 </div>
             </div>
             
-            <!-- Item 6 -->
+            <!-- Item 6 - Golden Fries -->
             <div class="menu-item sides bg-white rounded-2xl shadow-lg overflow-hidden transform hover:scale-105 transition-all duration-300 animate-on-scroll" style="animation-delay: 0.2s;">
                 <div class="aspect-square bg-gradient-to-br from-yellow-300 to-orange-200 flex items-center justify-center">
                     <i class="fas fa-potato text-7xl text-yellow-700"></i>
@@ -174,14 +195,18 @@
                             <span class="text-sm text-gray-500 ml-2">Regular</span>
                         </div>
                     </div>
-                    <button class="w-full bg-orange-500 text-white py-3 rounded-full font-semibold hover:bg-orange-600 transition flex items-center justify-center">
+                    <button onclick="handleAddToCart(this)"
+                            data-product-name="Golden Fries"
+                            data-product-price="6.90"
+                            data-product-id="6"
+                            class="w-full bg-orange-500 text-white py-3 rounded-full font-semibold hover:bg-orange-600 transition flex items-center justify-center">
                         <i class="fas fa-cart-plus mr-2"></i>
                         Add to Cart
                     </button>
                 </div>
             </div>
             
-            <!-- Item 7 -->
+            <!-- Item 7 - Coleslaw -->
             <div class="menu-item sides bg-white rounded-2xl shadow-lg overflow-hidden transform hover:scale-105 transition-all duration-300 animate-on-scroll">
                 <div class="aspect-square bg-gradient-to-br from-green-200 to-yellow-200 flex items-center justify-center">
                     <i class="fas fa-salad text-7xl text-green-600"></i>
@@ -194,14 +219,18 @@
                             <span class="text-2xl font-bold text-orange-600">RM 5.90</span>
                         </div>
                     </div>
-                    <button class="w-full bg-orange-500 text-white py-3 rounded-full font-semibold hover:bg-orange-600 transition flex items-center justify-center">
+                    <button onclick="handleAddToCart(this)"
+                            data-product-name="Coleslaw"
+                            data-product-price="5.90"
+                            data-product-id="7"
+                            class="w-full bg-orange-500 text-white py-3 rounded-full font-semibold hover:bg-orange-600 transition flex items-center justify-center">
                         <i class="fas fa-cart-plus mr-2"></i>
                         Add to Cart
                     </button>
                 </div>
             </div>
             
-            <!-- Item 8 -->
+            <!-- Item 8 - Soft Drinks -->
             <div class="menu-item drinks bg-white rounded-2xl shadow-lg overflow-hidden transform hover:scale-105 transition-all duration-300 animate-on-scroll" style="animation-delay: 0.1s;">
                 <div class="aspect-square bg-gradient-to-br from-blue-200 to-purple-200 flex items-center justify-center">
                     <i class="fas fa-glass-water text-7xl text-blue-600"></i>
@@ -214,14 +243,18 @@
                             <span class="text-2xl font-bold text-orange-600">RM 3.90</span>
                         </div>
                     </div>
-                    <button class="w-full bg-orange-500 text-white py-3 rounded-full font-semibold hover:bg-orange-600 transition flex items-center justify-center">
+                    <button onclick="handleAddToCart(this)"
+                            data-product-name="Soft Drinks"
+                            data-product-price="3.90"
+                            data-product-id="8"
+                            class="w-full bg-orange-500 text-white py-3 rounded-full font-semibold hover:bg-orange-600 transition flex items-center justify-center">
                         <i class="fas fa-cart-plus mr-2"></i>
                         Add to Cart
                     </button>
                 </div>
             </div>
             
-            <!-- Item 9 -->
+            <!-- Item 9 - Iced Tea -->
             <div class="menu-item drinks bg-white rounded-2xl shadow-lg overflow-hidden transform hover:scale-105 transition-all duration-300 animate-on-scroll" style="animation-delay: 0.2s;">
                 <div class="aspect-square bg-gradient-to-br from-orange-200 to-yellow-300 flex items-center justify-center">
                     <i class="fas fa-mug-hot text-7xl text-orange-700"></i>
@@ -234,7 +267,11 @@
                             <span class="text-2xl font-bold text-orange-600">RM 4.90</span>
                         </div>
                     </div>
-                    <button class="w-full bg-orange-500 text-white py-3 rounded-full font-semibold hover:bg-orange-600 transition flex items-center justify-center">
+                    <button onclick="handleAddToCart(this)"
+                            data-product-name="Iced Tea"
+                            data-product-price="4.90"
+                            data-product-id="9"
+                            class="w-full bg-orange-500 text-white py-3 rounded-full font-semibold hover:bg-orange-600 transition flex items-center justify-center">
                         <i class="fas fa-cart-plus mr-2"></i>
                         Add to Cart
                     </button>

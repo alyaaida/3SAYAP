@@ -1,6 +1,9 @@
 # Food Ordering System
 
-A web-based food ordering system built with Laravel.
+3Sayap is a web-based halal food ordering application managed by Ayam & Co., a local Food & Beverage company inspired by modern fast-casual fried chicken brands such as 4Fingers.
+
+The application allows customers to browse menus and place orders without requiring login, ensuring a fast and convenient ordering experience.
+Administrative access is restricted to authorized staff who can log in to manage products, orders, and view sales reports.
 
 ## Features
 - Browse menu items
@@ -72,9 +75,9 @@ npm run dev
 10. Visit: http://localhost:8000
 
 ## Team Members
-- [Your Name]
-- [Member 2]
-- [Member 3]
+- [NUR ALYA AIDA BINTI MOHD ABU BAKAR 2319286]
+- [SHAUQINA BALQIS BINTI MAT HARUN 2316818]
+- [FATHIN A'DLIN SOFEA BINTI BOLIA 2326814]
 
 ## Technologies Used
 - Laravel

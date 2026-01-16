@@ -178,14 +178,26 @@
         </div>
         
         <div class="aspect-video bg-gray-300 rounded-3xl shadow-2xl overflow-hidden animate-on-scroll">
-            <!-- Placeholder for Google Maps embed -->
-            <div class="w-full h-full flex items-center justify-center bg-gradient-to-br from-orange-200 to-red-200">
-                <div class="text-center">
-                    <i class="fas fa-map-marked-alt text-6xl text-orange-500 mb-4"></i>
-                    <p class="text-gray-700 font-semibold">Google Maps Integration</p>
-                    <p class="text-sm text-gray-600 mt-2">Replace with actual Google Maps iframe</p>
-                </div>
-            </div>
+           <!-- Google Maps embed -->
+<!-- Google Maps embed -->
+<div class="w-full h-full relative">
+    <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d63733.82551693579!2d101.71009492460485!3d3.2594303241673863!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1s4%20Fingers%20Crispy%20Chicken!5e0!3m2!1sen!2smy!4v1768229443160!5m2!1sen!2smy" 
+        class="w-full h-full" 
+        style="border:0;" 
+        allowfullscreen="" 
+        loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+    
+    <!-- Label overlay -->
+    <div class="absolute top-4 left-4 bg-white px-4 py-2 rounded-lg shadow-lg">
+        <p class="text-gray-800 font-semibold flex items-center">
+            <i class="fas fa-map-marker-alt text-red-500 mr-2"></i>
+            We are here
+        </p>
+    </div>
+</div>
         </div>
     </div>
 </section>

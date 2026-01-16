@@ -1,0 +1,24 @@
+# Query: route('order')
+
+9 results - 6 files
+
+resources\views\layouts\footer.blade.php:
+  42:                     <li><a href="{{ route('orders') }}" class="footer-link flex items-center"><i class="fas fa-chevron-right text-orange-500 mr-2 text-xs"></i> Order Online</a></li>
+
+resources\views\layouts\home.blade.php:
+   35:                     <a href="{{ route('orders') }}" class="btn-primary inline-flex items-center justify-center text-center">
+  324:             <a href="{{ route('orders') }}" class="bg-white text-orange-600 px-8 py-4 rounded-full font-bold text-lg hover:bg-orange-50 transform hover:scale-105 transition-all shadow-xl inline-flex items-center justify-center">
+
+resources\views\partials\footer.blade.php:
+  42:                     <li><a href="{{ route('orders') }}" class="footer-link flex items-center"><i class="fas fa-chevron-right text-orange-500 mr-2 text-xs"></i> Order Online</a></li>
+
+resources\views\public\footer.blade.php:
+  42:                     <li><a href="{{ route('orders') }}" class="footer-link flex items-center"><i class="fas fa-chevron-right text-orange-500 mr-2 text-xs"></i> Order Online</a></li>
+
+resources\views\public\home.blade.php:
+   35:                     <a href="{{ route('orders') }}" class="btn-primary inline-flex items-center justify-center text-center">
+  318:             <a href="{{ route('orders') }}" class="bg-white text-orange-600 px-8 py-4 rounded-full font-bold text-lg hover:bg-orange-50 transform hover:scale-105 transition-all shadow-xl inline-flex items-center justify-center">
+
+resources\views\public\navbar.blade.php:
+  27:                 <a href="{{ route('orders') }}" class="btn-primary inline-flex items-center">
+  49:                 <a href="{{ route('orders') }}" class="block btn-primary text-center mt-4">

@@ -51,7 +51,7 @@
             <!-- Location 1 -->
             <div class="bg-white rounded-2xl shadow-lg overflow-hidden transform hover:scale-105 transition-all duration-300 animate-on-scroll">
                 <div class="h-48 bg-gradient-to-br from-orange-200 to-red-200 flex items-center justify-center">
-                    <i class="fas fa-store text-6xl text-orange-500"></i>
+                    <img src="{{ asset('images/food-menu/location-ioi.jpg') }}"  alt="Chicken Drumstick" class="w-full h-full object-cover" />
                 </div>
                 <div class="p-6">
                     <h3 class="heading-font text-2xl font-bold text-gray-900 mb-3">KLCC</h3>
@@ -83,7 +83,7 @@
             <!-- Location 2 -->
             <div class="bg-white rounded-2xl shadow-lg overflow-hidden transform hover:scale-105 transition-all duration-300 animate-on-scroll" style="animation-delay: 0.1s;">
                 <div class="h-48 bg-gradient-to-br from-yellow-200 to-orange-200 flex items-center justify-center">
-                    <i class="fas fa-store text-6xl text-yellow-600"></i>
+                    <img src="{{ asset('images/food-menu/location-ioi.jpg') }}"  alt="Chicken Drumstick" class="w-full h-full object-cover" />
                 </div>
                 <div class="p-6">
                     <h3 class="heading-font text-2xl font-bold text-gray-900 mb-3">Pavilion KL</h3>
@@ -115,7 +115,8 @@
             <!-- Location 3 -->
             <div class="bg-white rounded-2xl shadow-lg overflow-hidden transform hover:scale-105 transition-all duration-300 animate-on-scroll" style="animation-delay: 0.2s;">
                 <div class="h-48 bg-gradient-to-br from-red-200 to-orange-200 flex items-center justify-center">
-                    <i class="fas fa-store text-6xl text-red-500"></i>
+                <img src="{{ asset('images/food-menu/location-ioi.jpg') }}"  alt="Chicken Drumstick" class="w-full h-full object-cover" />
+
                 </div>
                 <div class="p-6">
                     <h3 class="heading-font text-2xl font-bold text-gray-900 mb-3">Mid Valley</h3>
@@ -147,7 +148,8 @@
             <!-- Location 4 -->
             <div class="bg-white rounded-2xl shadow-lg overflow-hidden transform hover:scale-105 transition-all duration-300 animate-on-scroll">
                 <div class="h-48 bg-gradient-to-br from-green-200 to-yellow-200 flex items-center justify-center">
-                    <i class="fas fa-store text-6xl text-green-600"></i>
+                <img src="{{ asset('images/food-menu/location-ioi.jpg') }}"  alt="Chicken Drumstick" class="w-full h-full object-cover" />
+
                 </div>
                 <div class="p-6">
                     <h3 class="heading-font text-2xl font-bold text-gray-900 mb-3">Sunway Pyramid</h3>
@@ -179,7 +181,8 @@
             <!-- Location 5 -->
             <div class="bg-white rounded-2xl shadow-lg overflow-hidden transform hover:scale-105 transition-all duration-300 animate-on-scroll" style="animation-delay: 0.1s;">
                 <div class="h-48 bg-gradient-to-br from-blue-200 to-purple-200 flex items-center justify-center">
-                    <i class="fas fa-store text-6xl text-blue-600"></i>
+                <img src="{{ asset('images/food-menu/location-ioi.jpg') }}"  alt="Chicken Drumstick" class="w-full h-full object-cover" />
+
                 </div>
                 <div class="p-6">
                     <h3 class="heading-font text-2xl font-bold text-gray-900 mb-3">1 Utama</h3>
@@ -211,7 +214,8 @@
             <!-- Location 6 -->
             <div class="bg-white rounded-2xl shadow-lg overflow-hidden transform hover:scale-105 transition-all duration-300 animate-on-scroll" style="animation-delay: 0.2s;">
                 <div class="h-48 bg-gradient-to-br from-purple-200 to-pink-200 flex items-center justify-center">
-                    <i class="fas fa-store text-6xl text-purple-600"></i>
+                <img src="{{ asset('images/food-menu/location-ioi.jpg') }}"  alt="Chicken Drumstick" class="w-full h-full object-cover" />
+
                 </div>
                 <div class="p-6">
                     <h3 class="heading-font text-2xl font-bold text-gray-900 mb-3">Gurney Plaza</h3>

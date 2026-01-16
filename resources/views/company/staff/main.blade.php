@@ -20,7 +20,7 @@
                 <li>
                     <a href="#" class="logo">
                         <img src="{{ asset('images/logo.png') }}" alt="Hash Logo">
-                        <span>Hash Restaurant</span>
+                        <span>3Sayap Restaurant</span>
                     </a>
                 </li>
                 <li class="{{ request()->routeIs(['staff-dashboard', 'login']) ? 'active' : '' }}">

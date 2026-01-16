@@ -41,12 +41,15 @@ Route::get('/menu', [PublicController::class, 'menu'])->name('menu');
 Route::get('/about', [PublicController::class, 'about'])->name('about');
 Route::get('/promotion', [PublicController::class, 'promotion'])->name('promotion');
 Route::get('/reservation', [PublicController::class, 'reservation'])->name('reservation');
-Route::get('/orders', [PublicController::class, 'orders'])->name('order');
-// Add to cart
+Route::get('/orders', [PublicController::class, 'orders'])->name('orders');
+
+// Add to cart / Create order
 Route::post('/menu/create-order', [PublicController::class, 'createOrder'])->name('create-order');
+
 Route::get('/locations', [LocationController::class, 'index'])->name('locations');
 Route::get('/contact', [ContactController::class, 'index'])->name('contact');
 Route::post('/contact', [ContactController::class, 'store'])->name('contact.store');
+
 // Search
 Route::get('/search', [PublicController::class, 'search'])->name('search');
 

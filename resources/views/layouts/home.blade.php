@@ -32,7 +32,7 @@
                 </p>
                 
                 <div class="flex flex-col sm:flex-row gap-4">
-                    <a href="{{ route('order') }}" class="btn-primary inline-flex items-center justify-center text-center">
+                    <a href="{{ route('orders') }}" class="btn-primary inline-flex items-center justify-center text-center">
                         <i class="fas fa-shopping-cart mr-2"></i>
                         Order Now
                     </a>
@@ -321,7 +321,7 @@
             Order now and get it delivered hot and fresh to your doorstep!
         </p>
         <div class="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="{{ route('order') }}" class="bg-white text-orange-600 px-8 py-4 rounded-full font-bold text-lg hover:bg-orange-50 transform hover:scale-105 transition-all shadow-xl inline-flex items-center justify-center">
+            <a href="{{ route('orders') }}" class="bg-white text-orange-600 px-8 py-4 rounded-full font-bold text-lg hover:bg-orange-50 transform hover:scale-105 transition-all shadow-xl inline-flex items-center justify-center">
                 <i class="fas fa-shopping-cart mr-2"></i>
                 Order Now
             </a>

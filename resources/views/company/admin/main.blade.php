@@ -14,7 +14,7 @@
     <!-- Sidebar -->
     <div class="sidebar">
         
-        <a href="{{ route('admin-dashboard') }}" class="logo">Hash Restaurant</a>
+        <a href="{{ route('admin-dashboard') }}" class="logo">3Sayap Restaurant</a>
         <ul class="side-menu">
             <li class="{{ request()->routeIs(['admin-dashboard', 'login']) ? 'active' : '' }}">
                 <a href="{{ route('admin-dashboard') }}"><i class='bx bxs-dashboard'></i>Dashboard</a>

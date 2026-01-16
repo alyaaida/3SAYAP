@@ -32,7 +32,7 @@
                 </p>
                 
                 <div class="flex flex-col sm:flex-row gap-4">
-                    <a href="{{ route('order') }}" class="btn-primary inline-flex items-center justify-center text-center">
+                    <a href="{{ route('orders') }}" class="btn-primary inline-flex items-center justify-center text-center">
                         <i class="fas fa-shopping-cart mr-2"></i>
                         Order Now
                     </a>
@@ -63,9 +63,9 @@
             <div class="relative animate-slideInRight">
                 <div class="relative z-10 animate-float">
                     <!-- Placeholder for fried chicken image -->
-                    <div class="w-full aspect-square bg-gradient-to-br from-orange-200 to-red-200 rounded-3xl shadow-2xl flex items-center justify-center transform hover:scale-105 transition-transform duration-500">
-                        <i class="fas fa-drumstick-bite text-9xl text-orange-500 opacity-50"></i>
-                    </div>
+                    <div class="w-full aspect-square bg-gradient-to-br from-orange-200 to-red-200 rounded-3xl shadow-2xl flex items-center justify-center transform hover:scale-105 transition-transform duration-500 overflow-hidden">
+    <img src="{{ asset('images/food-menu/hero-chicken.jpg') }}"  alt="Chicken Drumstick" class="w-full h-full object-cover" />
+</div>
                 </div>
                 <!-- Decorative elements -->
                 <div class="absolute -top-8 -right-8 w-32 h-32 bg-yellow-300 rounded-full opacity-50 blur-2xl"></div>
@@ -137,75 +137,69 @@
         </div>
         
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            <!-- Product 1 -->
             <div class="group bg-white rounded-2xl shadow-lg overflow-hidden transform hover:scale-105 transition-all duration-300 animate-on-scroll">
-                <div class="aspect-square bg-gradient-to-br from-orange-200 to-red-200 flex items-center justify-center">
-                    <i class="fas fa-drumstick-bite text-6xl text-orange-500"></i>
-                </div>
-                <div class="p-6">
-                    <h3 class="heading-font text-2xl font-bold text-gray-900 mb-2">Original Recipe</h3>
-                    <p class="text-gray-600 mb-4">Classic crispy chicken with our secret blend</p>
-                    <div class="flex justify-between items-center">
-                        <span class="text-2xl font-bold text-orange-600">RM 12.90</span>
-                        <button class="bg-orange-500 text-white px-4 py-2 rounded-full hover:bg-orange-600 transition">
-                            <i class="fas fa-plus"></i>
-                        </button>
-                    </div>
-                </div>
-            </div>
-            
-            <!-- Product 2 -->
-            <div class="group bg-white rounded-2xl shadow-lg overflow-hidden transform hover:scale-105 transition-all duration-300 animate-on-scroll" style="animation-delay: 0.1s;">
-                <div class="aspect-square bg-gradient-to-br from-red-200 to-orange-200 flex items-center justify-center">
-                    <i class="fas fa-fire text-6xl text-red-500"></i>
-                </div>
-                <div class="p-6">
-                    <h3 class="heading-font text-2xl font-bold text-gray-900 mb-2">Spicy Wings</h3>
-                    <p class="text-gray-600 mb-4">Extra crispy with fiery kick</p>
-                    <div class="flex justify-between items-center">
-                        <span class="text-2xl font-bold text-orange-600">RM 15.90</span>
-                        <button class="bg-orange-500 text-white px-4 py-2 rounded-full hover:bg-orange-600 transition">
-                            <i class="fas fa-plus"></i>
-                        </button>
-                    </div>
-                </div>
-            </div>
-            
-            <!-- Product 3 -->
-            <div class="group bg-white rounded-2xl shadow-lg overflow-hidden transform hover:scale-105 transition-all duration-300 animate-on-scroll" style="animation-delay: 0.2s;">
-                <div class="aspect-square bg-gradient-to-br from-yellow-200 to-orange-200 flex items-center justify-center">
-                    <i class="fas fa-box text-6xl text-yellow-600"></i>
-                </div>
-                <div class="p-6">
-                    <h3 class="heading-font text-2xl font-bold text-gray-900 mb-2">Family Bucket</h3>
-                    <p class="text-gray-600 mb-4">12 pieces perfect for sharing</p>
-                    <div class="flex justify-between items-center">
-                        <span class="text-2xl font-bold text-orange-600">RM 45.90</span>
-                        <button class="bg-orange-500 text-white px-4 py-2 rounded-full hover:bg-orange-600 transition">
-                            <i class="fas fa-plus"></i>
-                        </button>
-                    </div>
-                </div>
-            </div>
-            
-            <!-- Product 4 -->
-            <div class="group bg-white rounded-2xl shadow-lg overflow-hidden transform hover:scale-105 transition-all duration-300 animate-on-scroll" style="animation-delay: 0.3s;">
-                <div class="aspect-square bg-gradient-to-br from-orange-200 to-yellow-200 flex items-center justify-center">
-                    <i class="fas fa-burger text-6xl text-orange-600"></i>
-                </div>
-                <div class="p-6">
-                    <h3 class="heading-font text-2xl font-bold text-gray-900 mb-2">Chicken Burger</h3>
-                    <p class="text-gray-600 mb-4">Juicy crispy chicken in a bun</p>
-                    <div class="flex justify-between items-center">
-                        <span class="text-2xl font-bold text-orange-600">RM 13.90</span>
-                        <button class="bg-orange-500 text-white px-4 py-2 rounded-full hover:bg-orange-600 transition">
-                            <i class="fas fa-plus"></i>
-                        </button>
-                    </div>
-                </div>
-            </div>
+    <div class="aspect-square overflow-hidden bg-gray-100">
+        <img src="{{ asset('images/food-menu/menu-drumsticks.jpg') }}" alt="Original Recipe" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" />
+    </div>
+    <div class="p-6">
+        <h3 class="heading-font text-2xl font-bold text-gray-900 mb-2">Original Recipe</h3>
+        <p class="text-gray-600 mb-4">Classic crispy chicken with our secret blend</p>
+        <div class="flex justify-between items-center">
+            <span class="text-2xl font-bold text-orange-600">RM 12.90</span>
+            <button class="bg-orange-500 text-white px-4 py-2 rounded-full hover:bg-orange-600 transition">
+                <i class="fas fa-plus"></i>
+            </button>
         </div>
-        
+    </div>
+</div>
+
+<div class="group bg-white rounded-2xl shadow-lg overflow-hidden transform hover:scale-105 transition-all duration-300 animate-on-scroll" style="animation-delay: 0.1s;">
+    <div class="aspect-square overflow-hidden bg-gray-100">
+        <img src="{{ asset('images/food-menu/menu-wings.jpg') }}" alt="Spicy Wings" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" />
+    </div>
+    <div class="p-6">
+        <h3 class="heading-font text-2xl font-bold text-gray-900 mb-2">Spicy Wings</h3>
+        <p class="text-gray-600 mb-4">Extra crispy with fiery kick</p>
+        <div class="flex justify-between items-center">
+            <span class="text-2xl font-bold text-orange-600">RM 15.90</span>
+            <button class="bg-orange-500 text-white px-4 py-2 rounded-full hover:bg-orange-600 transition">
+                <i class="fas fa-plus"></i>
+            </button>
+        </div>
+    </div>
+</div>
+
+<div class="group bg-white rounded-2xl shadow-lg overflow-hidden transform hover:scale-105 transition-all duration-300 animate-on-scroll" style="animation-delay: 0.2s;">
+    <div class="aspect-square overflow-hidden bg-gray-100">
+        <img src="{{ asset('images/food-menu/menu-family-feast.jpg') }}" alt="Family Bucket" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" />
+    </div>
+    <div class="p-6">
+        <h3 class="heading-font text-2xl font-bold text-gray-900 mb-2">Family Bucket</h3>
+        <p class="text-gray-600 mb-4">12 pieces perfect for sharing</p>
+        <div class="flex justify-between items-center">
+            <span class="text-2xl font-bold text-orange-600">RM 45.90</span>
+            <button class="bg-orange-500 text-white px-4 py-2 rounded-full hover:bg-orange-600 transition">
+                <i class="fas fa-plus"></i>
+            </button>
+        </div>
+    </div>
+</div>
+
+<div class="group bg-white rounded-2xl shadow-lg overflow-hidden transform hover:scale-105 transition-all duration-300 animate-on-scroll" style="animation-delay: 0.3s;">
+    <div class="aspect-square overflow-hidden bg-gray-100">
+        <img src="{{ asset('images/food-menu/menu-burger.jpg') }}" alt="Chicken Burger" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" />
+    </div>
+    <div class="p-6">
+        <h3 class="heading-font text-2xl font-bold text-gray-900 mb-2">Chicken Burger</h3>
+        <p class="text-gray-600 mb-4">Juicy crispy chicken in a bun</p>
+        <div class="flex justify-between items-center">
+            <span class="text-2xl font-bold text-orange-600">RM 13.90</span>
+            <button class="bg-orange-500 text-white px-4 py-2 rounded-full hover:bg-orange-600 transition">
+                <i class="fas fa-plus"></i>
+            </button>
+        </div>
+    </div>
+</div>
         <div class="text-center mt-12 animate-on-scroll">
             <a href="{{ route('menu') }}" class="btn-primary inline-flex items-center">
                 View Full Menu
@@ -321,7 +315,7 @@
             Order now and get it delivered hot and fresh to your doorstep!
         </p>
         <div class="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="{{ route('order') }}" class="bg-white text-orange-600 px-8 py-4 rounded-full font-bold text-lg hover:bg-orange-50 transform hover:scale-105 transition-all shadow-xl inline-flex items-center justify-center">
+            <a href="{{ route('orders') }}" class="bg-white text-orange-600 px-8 py-4 rounded-full font-bold text-lg hover:bg-orange-50 transform hover:scale-105 transition-all shadow-xl inline-flex items-center justify-center">
                 <i class="fas fa-shopping-cart mr-2"></i>
                 Order Now
             </a>

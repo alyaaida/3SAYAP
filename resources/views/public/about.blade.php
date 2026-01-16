@@ -25,9 +25,9 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div class="animate-on-scroll">
-                <div class="aspect-square bg-gradient-to-br from-orange-200 to-red-200 rounded-3xl shadow-2xl flex items-center justify-center">
-                    <i class="fas fa-store text-9xl text-orange-500 opacity-50"></i>
-                </div>
+                <div class="aspect-square bg-gray-100 rounded-3xl shadow-2xl overflow-hidden">
+            <img src="{{ asset('images/food-menu/hero-chicken.jpg') }}" alt="Our Store" class="w-full h-full object-cover transform hover:scale-105 transition-transform duration-700" />
+        </div>
             </div>
             
             <div class="space-y-6 animate-on-scroll">
@@ -153,10 +153,10 @@
         
         <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
             <div class="text-center animate-on-scroll">
-                <div class="w-48 h-48 bg-gradient-to-br from-orange-400 to-red-500 rounded-full mx-auto mb-6 flex items-center justify-center shadow-xl">
-                    <i class="fas fa-user text-7xl text-white"></i>
+                <div class="w-48 h-48 rounded-full mx-auto mb-6 overflow-hidden shadow-xl">
+                    <img src="{{ asset('images/food-menu/person1.jpg') }}" alt="founder & ceo" class="w-full h-full object-cover transform hover:scale-105 transition-transform duration-700" />
                 </div>
-                <h3 class="heading-font text-2xl font-bold text-gray-900 mb-2">Ahmad Rizal</h3>
+                <h3 class="heading-font text-2xl font-bold text-gray-900 mb-2">Alya Aida</h3>
                 <p class="text-orange-600 font-semibold mb-3">Founder & CEO</p>
                 <p class="text-gray-600">
                     Visionary behind the secret recipe and halal excellence standards
@@ -164,26 +164,28 @@
             </div>
             
             <div class="text-center animate-on-scroll" style="animation-delay: 0.1s;">
-                <div class="w-48 h-48 bg-gradient-to-br from-yellow-400 to-orange-500 rounded-full mx-auto mb-6 flex items-center justify-center shadow-xl">
-                    <i class="fas fa-user text-7xl text-white"></i>
+                <div class="w-48 h-48 rounded-full mx-auto mb-6 overflow-hidden shadow-xl">
+                    <img src="{{ asset('images/food-menu/person2.jpeg') }}" alt="head chef" class="w-full h-full object-cover transform hover:scale-105 transition-transform duration-700" />
                 </div>
-                <h3 class="heading-font text-2xl font-bold text-gray-900 mb-2">Sarah Lee</h3>
+                <h3 class="heading-font text-2xl font-bold text-gray-900 mb-2">Shauqina Balqis</h3>
                 <p class="text-orange-600 font-semibold mb-3">Head Chef</p>
                 <p class="text-gray-600">
                     Master of crispy perfection with 15 years culinary experience
                 </p>
             </div>
             
-            <div class="text-center animate-on-scroll" style="animation-delay: 0.2s;">
-                <div class="w-48 h-48 bg-gradient-to-br from-red-400 to-orange-500 rounded-full mx-auto mb-6 flex items-center justify-center shadow-xl">
-                    <i class="fas fa-user text-7xl text-white"></i>
-                </div>
-                <h3 class="heading-font text-2xl font-bold text-gray-900 mb-2">Kamal Hassan</h3>
-                <p class="text-orange-600 font-semibold mb-3">Operations Director</p>
-                <p class="text-gray-600">
-                    Ensuring quality and consistency across all locations
-                </p>
-            </div>
+           <div class="text-center animate-on-scroll" style="animation-delay: 0.2s;">
+    <div class="w-48 h-48 rounded-full mx-auto mb-6 overflow-hidden shadow-xl">
+        <img src="{{ asset('images/food-menu/person3.png') }}" 
+             alt="operation director" 
+             class="w-full h-full object-cover transform hover:scale-105 transition-transform duration-700" />
+    </div>
+    <h3 class="heading-font text-2xl font-bold text-gray-900 mb-2">A'dlin Sofea</h3>
+    <p class="text-orange-600 font-semibold mb-3">Operations Director</p>
+    <p class="text-gray-600">
+        Ensuring quality and consistency across all locations
+    </p>
+</div>
         </div>
     </div>
 </section>

@@ -24,7 +24,7 @@
             
             <!-- Order Button -->
             <div class="hidden md:flex items-center space-x-4">
-                <a href="{{ route('order') }}" class="btn-primary inline-flex items-center">
+                <a href="{{ route('orders') }}" class="btn-primary inline-flex items-center">
                     <i class="fas fa-shopping-cart mr-2"></i>
                     Order Now
                 </a>
@@ -46,7 +46,7 @@
                 <a href="{{ route('about') }}" class="block nav-link text-center">About Us</a>
                 <a href="{{ route('locations') }}" class="block nav-link text-center">Locations</a>
                 <a href="{{ route('contact') }}" class="block nav-link text-center">Contact</a>
-                <a href="{{ route('order') }}" class="block btn-primary text-center mt-4">
+                <a href="{{ route('orders') }}" class="block btn-primary text-center mt-4">
                     <i class="fas fa-shopping-cart mr-2"></i>
                     Order Now
                 </a>
