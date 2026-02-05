@@ -72,7 +72,7 @@ php artisan serve
 npm run dev
 ```
 
-10. Visit: http://localhost:8000
+10. Visit: https://alyaaida.github.io/3SAYAP/
 
 ## Team Members
 - [NUR ALYA AIDA BINTI MOHD ABU BAKAR 2319286]
